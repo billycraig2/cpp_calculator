@@ -50,6 +50,9 @@ int main() {
         case '-':
             Calculator::subtract(x, y);
             break;
+
+        default:
+            cout << "Please use on the following operators: + (add), - (subtract), * (multiply), / (divide)";
     }
 
     return 0;
