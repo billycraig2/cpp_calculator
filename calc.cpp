@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 class Calculator {
 public:
     static void multiply(int, int);
@@ -52,7 +50,7 @@ int main() {
             break;
 
         default:
-            cout << "Please use on the following operators: + (add), - (subtract), * (multiply), / (divide)";
+            std::cout << "Please use on the following operators: + (add), - (subtract), * (multiply), / (divide)";
     }
 
     return 0;
